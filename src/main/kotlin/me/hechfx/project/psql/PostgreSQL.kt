@@ -14,7 +14,7 @@ class PostgreSQL {
                 jdbcUrl = "jdbc:postgresql://127.0.0.1:5432/senichi"
                 driverClassName = "org.postgresql.Driver"
                 username = "postgres"
-                password = "fxhech2446"
+                password = "no"
             }
 
             Database.connect(HikariDataSource(config))
